@@ -20,22 +20,22 @@ To start a wake session, provide a time in 12-hour format with either `am` or `p
 **Usage:**
 
 ```sh
-./wake.sh <time>
+./amp-woke.sh <time>
 ```
 
 **Examples:**
 
 - Start a session until 1:30 AM:
   ```sh
-  ./wake.sh 130am
+  ./amp-woke.sh 130am
   ```
 - Start a session until 11:30 PM:
   ```sh
-  ./wake.sh 1130pm
+  ./amp-woke.sh 1130pm
   ```
 - Start a session until 5 PM:
   ```sh
-  ./wake.sh 5pm
+  ./amp-woke.sh 5pm
   ```
 
 ### Stopping a Wake Session
@@ -45,7 +45,7 @@ To stop an active Amphetamine session:
 **Usage:**
 
 ```sh
-./wake.sh stop
+./amp-woke.sh stop
 ```
 
 This command will end the current Amphetamine session.
@@ -57,7 +57,7 @@ To check if there is an active Amphetamine session and view the remaining time:
 **Usage:**
 
 ```sh
-./wake.sh check
+./amp-woke.sh check
 ```
 
 This command will display whether there is an active Amphetamine session and how much time remains in the session.
@@ -80,13 +80,13 @@ If the time is specified incorrectly, the script will provide an error and promp
 1. **Start a Session**: To keep your Mac awake until 2:30 PM:
 
    ```sh
-   ./wake.sh 230pm
+   ./amp-woke.sh 230pm
    ```
 
 2. **Check Status**: To see if the wake session is still active:
 
    ```sh
-   ./wake.sh check
+   ./amp-woke.sh check
    ```
 
    Output:
@@ -97,7 +97,7 @@ If the time is specified incorrectly, the script will provide an error and promp
 3. **Stop the Session**: To manually end the session:
 
    ```sh
-   ./wake.sh stop
+   ./amp-woke.sh stop
    ```
 
    Output:
